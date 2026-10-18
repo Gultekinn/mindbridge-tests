@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-
+// Test automation completed
 test('User can register successfully', async ({ page }) => {
   // Open the registration page
   await page.goto('https://example.com/register');
